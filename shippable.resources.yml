@@ -1,10 +1,10 @@
 resources:
-  - name: sample-script1
-    type: gitRepo
-    integration: shiphitchcock4-github
-    pointer:
-      sourceName: shiphitchcock4/sampleRub
-      branch: master
+ # - name: sample-script1
+  #  type: gitRepo
+   # integration: shiphitchcock4-github
+  #  pointer:
+   #   sourceName: shiphitchcock4/sampleRub
+    #  branch: master
       
   - name: new-image1
     type: image
