@@ -14,6 +14,8 @@ resources:
       isPull: false
     seed:
       versionName: "latest" 
+    flags:
+      - dvf1
      # branch: master
      
  # - name: new-image2
