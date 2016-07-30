@@ -4,6 +4,7 @@ jobs:
     steps:
       - IN: trigger-dv-man
       - IN: sample-script11
+      - OUT: new-image1
       #  versionNumber: 1
       - TASK: managed
    # on_failure:
