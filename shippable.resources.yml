@@ -47,7 +47,7 @@ resources:
       
   - name: test-cluster1
     type: cluster
-    integration: ship-awsnew11
+    integration: ship-awsnew
     pointer:
       sourceName: "default" #name of the cluster we are deploying
       region: "us-west-2" 
