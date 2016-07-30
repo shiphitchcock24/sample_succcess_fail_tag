@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: trigger-dv-man
-      - IN: new-u12
+      - IN: sample-script11
       #  versionNumber: 1
       - TASK: managed
    # on_failure:
