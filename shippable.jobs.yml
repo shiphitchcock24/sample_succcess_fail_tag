@@ -21,6 +21,10 @@ jobs:
      #   versionNumber: 1
       - TASK: managed
         deployMethod: upgrade
+    on_success:
+      - NOTIFY: email
+    on_failure:
+      - NOTIFY: ship-slack1
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
