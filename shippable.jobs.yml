@@ -11,7 +11,7 @@ jobs:
     #  - ls
      # - pwd
   - name : deployecs112
-    type: ecsDeploy
+    type:  deploy
     steps:
       - IN: ecsfailmani100
       - IN: test-cluster1
