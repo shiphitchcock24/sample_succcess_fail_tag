@@ -22,7 +22,7 @@ jobs:
       - TASK: managed
         deployMethod: upgrade
     on_success:
-      - NOTIFY: myEmail
+      - NOTIFY: myEmail1
     on_failure:
       - NOTIFY: mySlack
     #on_failure:
