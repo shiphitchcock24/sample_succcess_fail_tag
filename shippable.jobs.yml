@@ -10,14 +10,14 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-#  - name : deployecs112
- #   type: ecsDeploy
-  #  steps:
-   #   - IN: ecsfailmani100
-    #  - IN: test-cluster1
+  - name : deployecs112
+    type: ecsDeploy
+    steps:
+      - IN: ecsfailmani100
+      - IN: test-cluster1
      #   versionNumber: 1
-     # - TASK: managed
-       # deployMethod: upgrade
+      - TASK: managed
+        deployMethod: upgrade
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
