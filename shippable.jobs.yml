@@ -22,9 +22,9 @@ jobs:
       - TASK: managed
         deployMethod: upgrade
     on_success:
-      - NOTIFY: email
+      - NOTIFY: myEmail
     on_failure:
-      - NOTIFY: ship-slack1
+      - NOTIFY: mySlack
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
