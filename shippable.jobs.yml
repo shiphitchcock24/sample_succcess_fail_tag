@@ -17,6 +17,7 @@ jobs:
     steps:
       - IN: ecsfailmani100
       - IN: test-cluster1
+      - IN: triggertest2
      #   versionNumber: 1
       - TASK: managed
         deployMethod: upgrade
