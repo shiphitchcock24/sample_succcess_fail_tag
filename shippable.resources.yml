@@ -52,7 +52,7 @@ resources:
         - "#random"
       # - "@pvt-channel"
 
-  - name: myEmail
+  - name: myEmail1
     type: notification
     integration: email
     pointer:
