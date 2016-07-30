@@ -43,3 +43,19 @@ resources:
     pointer:
       sourceName: "default" #name of the cluster we are deploying
       region: "us-west-2" 
+      
+  - name: mySlack
+    type: notification
+    integration: ship-slack1
+    pointer:
+      recipients:
+        - "#random"
+      # - "@pvt-channel"
+
+  - name: myEmail
+    type: notification
+    integration: email
+    pointer:
+      recipients: 
+        -  "sreya@shippable.com"
+
