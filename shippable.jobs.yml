@@ -12,7 +12,7 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecsv1
+  - name : deployecsv2
     type:  deploy
     steps:
       - IN: ecsfailmani100
