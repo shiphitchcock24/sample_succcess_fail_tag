@@ -1,5 +1,5 @@
 jobs:
-  - name: ecsfailmani101
+  - name: ecsfailmani102
     type: manifest
     steps:
       - IN: trigger-dv-man
@@ -12,10 +12,10 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecsv3
+  - name : deployecsv4
     type:  deploy
     steps:
-      - IN: ecsfailmani101
+      - IN: ecsfailmani102
       - IN: test-cluster1
       - IN: triggertest2
      #   versionNumber: 1
