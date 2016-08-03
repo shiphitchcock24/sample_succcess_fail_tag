@@ -7,7 +7,7 @@ jobs:
       #  versionNumber: 10000
       - OUT: new-image1
       #  versionNumber: 1
-      - TASK: managed
+        - TASK: managed
    # on_failure:
       #- ./party.sh
     #  - ls
