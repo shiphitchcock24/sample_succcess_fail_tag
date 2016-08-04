@@ -20,7 +20,7 @@ jobs:
       - IN: triggertest2
      #   versionNumber: 1
       - TASK: managed
-        deployMethod: upgrade
+        #deployMethod: upgrade
     on_success:
       - NOTIFY: myEmail1
     on_failure:
