@@ -13,7 +13,7 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
     seed:
-      versionName: "latest" 
+      versionName: "sreya" 
     flags:
       - dvf1
      # branch: master
@@ -39,7 +39,7 @@ resources:
       
   - name: test-cluster1
     type: cluster
-    integration: ship-awsnew12
+    integration: ship-awsnew
     pointer:
       sourceName: "default" #name of the cluster we are deploying
       region: "us-west-2" 
