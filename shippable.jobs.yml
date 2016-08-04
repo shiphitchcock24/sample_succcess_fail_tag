@@ -5,7 +5,7 @@ jobs:
       - IN: trigger-dv-man
       - IN: new-image11
       #  versionNumber: 10000
-      - OUT: new-image1
+     # - OUT: new-image1
       #  versionNumber: 1
       - TASK: managed
    # on_failure:
