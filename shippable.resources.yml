@@ -10,8 +10,8 @@ resources:
     type: image
     integration: ship4-docker
     pointer:
-      sourceName: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: false
+      sourceName: "shiphitchcock4/hitchcock4_sampl"
+    #  isPull: false
     seed:
       versionName: "sreya" 
     flags:
