@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: trigger-dv-man
-    - IN: new-image11
+      - IN: new-image11
       #  versionNumber: 10000
      # - OUT: new-image1
       #  versionNumber: 1
