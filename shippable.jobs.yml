@@ -4,8 +4,8 @@ jobs:
     steps:
       - IN: trigger-dv-man
       - IN: new-image11
-       # versionName: sreya
-        versionNumber: 10000
+        versionName: shiphitchcock4
+       # versionNumber: 10000
      # - OUT: new-image1
       #  versionNumber: 1
       - TASK: managed
