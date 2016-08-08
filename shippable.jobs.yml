@@ -1,9 +1,9 @@
 jobs:
-  - name: ecsfailmani114
+  - name: ecsfailmani117
     type: manifest
     steps:
       - IN: trigger-dv-man
-      - IN: new-image11
+      - IN: new-image12
         #versionName: shiphitchcock4
         #versionNumber: 999999967
      # - OUT: new-image1
