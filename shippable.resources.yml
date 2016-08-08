@@ -13,7 +13,7 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sampl"
     #  isPull: false
     seed:
-      versionName: "sreya" 
+      versionName: latest 
     flags:
       - dvf1
      # branch: master
