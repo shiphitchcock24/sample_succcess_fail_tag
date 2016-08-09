@@ -16,7 +16,7 @@ jobs:
   - name : deployecsvault76
     type:  deploy
     steps:
-      - IN: ecsfailmani113
+      - IN: ecsfailmani117
       - IN: test-cluster1
       - IN: triggertest2
      #   versionNumber: 1
